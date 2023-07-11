@@ -1,0 +1,40 @@
+:host {
+  // display: flex;
+  // flex-wrap: wrap;
+  // background-color: transparent;
+  // color: white;
+  // overflow-x: hidden;
+  header {
+    background-image: linear-gradient(120deg, #222222, #171717);
+    margin: -10px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3.5rem;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 5rem 4rem;
+  }
+  ::ng-deep {
+    * {
+      font-family: "Times New Roman", Times, serif;
+    }
+  }
+  @media only screen and (max-width: 319px) {
+  }
+  @media only screen and (min-width: 320px) and (max-width: 359px) {
+  }
+  @media only screen and (min-width: 360px) and (max-width: 539px) {
+  }
+  @media only screen and (min-width: 540px) and (max-width: 767px) {
+  }
+  @media only screen and (min-width: 768px) and (max-width: 819px) {
+  }
+  @media only screen and (min-width: 820px) and (max-width: 911px) {
+  }
+  @media only screen and (min-width: 912px) and (max-width: 1023px) {
+  }
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  }
+}
